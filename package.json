@@ -18,15 +18,17 @@
     "gulp-rename": "^1.2.2",
     "gulp-minify-css": "^1.2.4",
     "gulp-uglify": "^2.0.0",
-    "gulp-jade": "^1.1.0",
     "gulp-webserver": "^0.9.1",
-    "jshint": "^2.9.4",
-    "jade": "^1.11.0"
+    "jshint": "^2.9.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "PeterJCK",
-  "license": "ISC"
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-csscomb": "^3.0.8",
+    "gulp-htmlmin": "^3.0.0"
+  }
 }
